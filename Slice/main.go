@@ -20,7 +20,11 @@ func main(){
 
 	//removing the last element
 	slice = append(slice[:len(slice)-1])
-	fmt.Println()
+	fmt.Println(slice)
+
+
+	slice = append(slice[2:len(slice)])
+	fmt.Println(slice)
 
 	//removing from the middle part is still remaining
 
